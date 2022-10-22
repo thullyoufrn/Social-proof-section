@@ -60,7 +60,7 @@ main {
 }
 
 .stars {
-  height: 35%;
+  height: 37%;
   /* Flexbox */
   display: flex;
   flex-grow: 1;
@@ -70,12 +70,12 @@ main {
   align-items: flex-end;
 }
 
-.rates div {
+.stars div {
   background-color: var(--light-grayish-magenta);
   color: var(--very-dark-magenta);
   font-weight: 500;
   font-size: 14px;
-  min-height: 50px;
+  min-height: 53px;
   border-radius: 6px;
   width: 55%;
   padding-left: 25px;
@@ -85,12 +85,12 @@ main {
   align-items: center;
 }
 
-.rates div img {
+.stars div img {
   margin-left: 6px;
-  width: 15px;
+  width: 16px;
 }
 
-.rates div h3 {
+.stars div h3 {
   margin-left: 30px;
 }
 
@@ -103,8 +103,7 @@ main {
 }
 
 .comments {
-  background-color: yellow;
-  height: 50%;
+  min-height: 50%;
   min-width: 100%;
 }
 
