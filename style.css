@@ -17,12 +17,12 @@
 
 body {
   margin: 0;
-  padding: 100px 150px;
+  padding: 100px 165px;
   height: calc(100vh - 200px);
   background-color: var(--white);
   background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
   background-repeat: no-repeat, no-repeat;
-  background-position: top -7% left 0%, top 250% left 100%;
+  background-position: top -4% left 0%, top 250% left 100%;
 }
 
 main {
@@ -60,20 +60,52 @@ main {
 }
 
 .stars {
-  background-color: yellowgreen;
-  flex-grow: 1;
-  height: 50%;
+  height: 35%;
   /* Flexbox */
   display: flex;
-
+  flex-grow: 1;
+  align-self: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
-.stars h3 {
-  
+.rates div {
+  background-color: var(--light-grayish-magenta);
+  color: var(--very-dark-magenta);
+  font-weight: 500;
+  font-size: 14px;
+  min-height: 50px;
+  border-radius: 6px;
+  width: 55%;
+  padding-left: 25px;
+  /* Flexbox */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.rates div img {
+  margin-left: 6px;
+  width: 15px;
+}
+
+.rates div h3 {
+  margin-left: 30px;
+}
+
+#reviews {
+  margin-right: 100px;
+}
+
+#guru {
+  margin-right: 50px;
 }
 
 .comments {
   background-color: yellow;
+  height: 50%;
+  min-width: 100%;
 }
 
 .attribution {
