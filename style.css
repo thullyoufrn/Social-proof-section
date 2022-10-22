@@ -17,12 +17,12 @@
 
 body {
   margin: 0;
-  padding: 100px 165px;
-  height: calc(100vh - 200px);
+  padding: 80px 190px;
+  height: calc(100vh - 160px);
   background-color: var(--white);
   background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
   background-repeat: no-repeat, no-repeat;
-  background-position: top -4% left 0%, top 250% left 100%;
+  background-position: top 0% left 0%, top 250% left 100%;
 }
 
 main {
@@ -33,7 +33,6 @@ main {
   justify-self: center;
   align-self: center;
   flex-wrap: wrap;
-  border-radius: 20px;
 }
 
 .titles {
@@ -41,7 +40,7 @@ main {
   color: var(--very-dark-magenta);
   /* Flexbox */
   display: flex;
-  flex-basis: 35%;
+  flex-basis: 40%;
   flex-wrap: wrap;
   justify-items: flex-start;
   align-content: space-evenly;
@@ -53,6 +52,7 @@ main {
 }
 
 .titles h2 {
+  color: var(--very-dark-magenta);
   font-weight: 400;
   font-size: 17px;
   line-height: 23px;
@@ -63,7 +63,7 @@ main {
   height: 37%;
   /* Flexbox */
   display: flex;
-  flex: 1 0 65%;
+  flex: 1 0 60%;
   flex-wrap: wrap;
   align-self: center;
   justify-content: flex-end;
@@ -80,7 +80,7 @@ main {
   padding-left: 25px;
   /* Flexbox */
   display: flex;
-  flex: 0 0 55%;
+  flex: 0 0 62%;
   justify-content: flex-start;
   align-items: center;
 }
@@ -102,13 +102,73 @@ main {
   margin-right: 50px;
 }
 
-.comments {
+.testimonial {
   min-height: 50%;
   /* Flexbox */
   display: flex;
   flex: 1 0 100%;
   justify-content: space-between;
+  align-items: flex-end;
+}
+
+.comment {
+  min-height: 165px;
+  background-color: var(--very-dark-magenta);
+  border-radius: 8px;
+  padding: 25px 33px;
+  /* Flexbox */
+  display: flex;
+  flex: 0 0 265px;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
+  align-content: space-around;
+}
+
+.comment img {
+  width: 35px;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+.infos {
+  height: 40px;
+  /* Flexbox */
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-evenly;
+}
+
+.infos h4 {
+  flex-basis: 100%;
+  color: var(--light-grayish-magenta);
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.infos h5 {
+  flex-basis: 100%;
+  color: var(--soft-pink);
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.comment article {
+  flex-basis: 100%;
+  color: var(--light-grayish-magenta);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+#colton {
+  margin-bottom: 30px;
+}
+
+#irene {
+  margin-bottom: 15px;
 }
 
 .attribution {
