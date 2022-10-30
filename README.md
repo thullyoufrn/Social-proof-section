@@ -4,10 +4,6 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ## Overview
 
-### The challenge
-
-- Build a profile card component as similar to the design shown as possible.
-
 ### Screenshot
 
 ![Screenshot](./design/print-social-proof-section.png)
