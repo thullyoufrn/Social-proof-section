@@ -18,7 +18,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 - Semantic HTML5 markup
 - Acessible HTML5 markup
 - CSS custom properties
-- CSS grid layout
+- CSS flexbox
 
 ### What I learned
 
